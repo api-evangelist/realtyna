@@ -74,6 +74,8 @@ common:
     url: https://realtyna.com
   - type: Documentation
     url: https://realtyna.com/api
+  - type: LLMsTxt
+    url: https://realtyna.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
