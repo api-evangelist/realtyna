@@ -74,7 +74,7 @@ common:
     url: https://realtyna.com
   - type: Documentation
     url: https://realtyna.com/api
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://realtyna.com/llms.txt
 maintainers:
   - FN: Kin Lane
