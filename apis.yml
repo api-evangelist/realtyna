@@ -66,6 +66,10 @@ apis:
       - type: Documentation
         url: https://realtyna.com/organic-mls-integration/
 common:
+  - type: DomainSecurity
+    url: security/realtyna-domain-security.yml
+  - url: https://realtyna.com/feed/
+    type: Blog
   - type: GitHubOrganization
     url: https://github.com/realtyna
   - type: LinkedIn
