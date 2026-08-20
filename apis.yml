@@ -21,6 +21,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realtyna.png
 tags:
+  - Real-Estate
+  - MLS
+  - IDX
+  - RESO
+  - WordPress
+tags_raw:
   - Real Estate
   - MLS
   - IDX
