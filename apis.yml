@@ -32,7 +32,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realtyna.png
 tags:
-  - Real-Estate
+  - Real Estate
   - MLS
   - IDX
   - RESO
@@ -43,6 +43,7 @@ tags_raw:
   - IDX
   - RESO
   - WordPress
+  - Real-Estate
 url: >-
   https://raw.githubusercontent.com/api-evangelist/realtyna/refs/heads/main/apis.yml
 created: '2026-03-16'
