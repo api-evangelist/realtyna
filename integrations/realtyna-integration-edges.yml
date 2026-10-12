@@ -1,0 +1,71 @@
+edges:
+- partner_name: RESO
+  partner: reso
+  type: contract
+  channel: network-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://services.reso.org/orgs?showStats=true&showEndorsements=true
+  contract_reference:
+    register: RESO organizations and endorsements (Real Estate Standards Organization)
+    spec_file: null
+    role: Technology Company
+    tier: Certified Current
+    registered_name: Realtyna
+    organization_uoi: T00000070
+    matched_domain: realtyna.com
+    matched_by: domain
+    endorsements:
+    - Web API Core 2.0.0 Certified
+    - Add/Edit 1.0.0 Certified
+    - Data Dictionary 1.7 Certified
+    summary_url: https://certification.reso.org/summary/T00000070
+    detected_by: sweep-real-estate.py
+    detected: '2026-10-13'
+- partner_name: Listing+
+  partner: null
+  partner_match: null
+  type: contract
+  channel: network-directory
+  relationship: endpoint-coverage
+  direction: provider-built
+  evidence: https://services.reso.org/orgs?showStats=true&showEndorsements=true
+  category: RESO-certified MLS feed
+  contract_reference:
+    register: RESO organizations and endorsements (Real Estate Standards Organization)
+    spec_file: null
+    standard: RESO
+    endorsements:
+    - Data Dictionary 2.0 Certified
+    - Web API Core 2.0.0 Certified
+    organization_uoi: M00000157
+    organization_type: MLS
+    vendor_uoi: T00000070
+    detected_by: sweep-real-estate.py
+    detected: '2026-10-13'
+- partner_name: RealtyFeed
+  partner: null
+  partner_match: null
+  type: contract
+  channel: network-directory
+  relationship: endpoint-coverage
+  direction: partner-built
+  evidence: https://services.reso.org/orgs?showStats=true&showEndorsements=true
+  category: RESO-certified feed served by vendor
+  contract_reference:
+    register: RESO organizations and endorsements (Real Estate Standards Organization)
+    spec_file: null
+    standard: RESO
+    endorsements:
+    - Web API Core 2.0.0 Certified
+    - Add/Edit 1.0.0 Certified
+    - Data Dictionary 1.7 Certified
+    organization_uoi: T00000070
+    organization_type: Technology Company
+    vendor_uoi: T00000210
+    detected_by: sweep-real-estate.py
+    detected: '2026-10-13'
+generated: '2026-10-13'
+method: searched
+checked:
+- https://services.reso.org/orgs?showStats=true&showEndorsements=true
