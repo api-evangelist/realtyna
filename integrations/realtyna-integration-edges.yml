@@ -44,8 +44,8 @@ edges:
     detected_by: sweep-real-estate.py
     detected: '2026-10-13'
 - partner_name: RealtyFeed
-  partner: null
-  partner_match: null
+  partner: realtyfeed
+  partner_match: domain
   type: contract
   channel: network-directory
   relationship: endpoint-coverage

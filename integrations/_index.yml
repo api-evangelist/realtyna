@@ -55,6 +55,7 @@
   arazzo: null
 - slug: realtyna-realtyfeed
   label: RealtyFeed
+  partner: realtyfeed
   partner_name: RealtyFeed
   category: RESO-certified feed served by vendor
   type: contract
