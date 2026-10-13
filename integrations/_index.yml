@@ -27,7 +27,7 @@
     - Data Dictionary 1.7 Certified
     summary_url: https://certification.reso.org/summary/T00000070
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: realtyna-listing
@@ -50,7 +50,7 @@
     organization_type: MLS
     vendor_uoi: T00000070
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: realtyna-realtyfeed
@@ -75,6 +75,6 @@
     organization_type: Technology Company
     vendor_uoi: T00000210
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null

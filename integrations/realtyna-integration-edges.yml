@@ -21,7 +21,7 @@ edges:
     - Data Dictionary 1.7 Certified
     summary_url: https://certification.reso.org/summary/T00000070
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
 - partner_name: Listing+
   partner: null
   partner_match: null
@@ -42,7 +42,7 @@ edges:
     organization_type: MLS
     vendor_uoi: T00000070
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
 - partner_name: RealtyFeed
   partner: realtyfeed
   partner_match: domain
@@ -64,7 +64,7 @@ edges:
     organization_type: Technology Company
     vendor_uoi: T00000210
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
 generated: '2026-10-13'
 method: searched
 checked:
