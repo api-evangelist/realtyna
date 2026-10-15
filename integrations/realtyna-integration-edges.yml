@@ -65,7 +65,27 @@ edges:
     vendor_uoi: T00000210
     detected_by: sweep-real-estate.py
     detected: '2026-10-14'
+- partner_name: WordPress (own)
+  partner: wordpress
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://wordpress.org/plugins/real-estate-listing-realtyna-wpl/
+  mirror_of: wordpress/integrations/wordpress-integration-edges.yml
+  apps:
+  - Realtyna Organic IDX plugin + WPL Real Estate
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: WordPress plugin
 generated: '2026-10-13'
 method: searched
 checked:
 - https://services.reso.org/orgs?showStats=true&showEndorsements=true
+- wordpress/integrations/wordpress-integration-edges.yml
+source:
+- wordpress/integrations/wordpress-integration-edges.yml
