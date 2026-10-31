@@ -1,4 +1,4 @@
-# Realtyna (realtyna)
+# Realtyna
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,72 +66,104 @@
 
 Realtyna provides real estate technology including IDX, RESO Web API integrations, MLS data routing, and a WordPress-based property platform (WPL). Their API Plugin exposes the WPL platform via a RESTful, JSON-based HTTP interface for building custom front-ends and mobile applications. Realtyna also offers MLS API, Organic RESO API, and the MLS Router API for enterprise MLS integration.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/realtyna/refs/heads/main/apis.yml)
+**Areas:** Real Estate · MLS · IDX · RESO · WordPress
 
-## Scope
+## Realtyna on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Realtyna is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/realtyna/](https://apis.io/providers/realtyna/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (3)
 
- - Real Estate, MLS, IDX, RESO, WordPress
+- [Realtyna WPL API Plugin](https://apis.io/apis/realtyna/wpl-api/) — The WPL API Plugin is a RESTful HTTP/JSON interface for the Realtyna WPL WordPress platform. It supports user account registration and management,…
+- [Realtyna MLS Router API](https://apis.io/apis/realtyna/mls-router-api/) — MLS Router API is an enterprise solution that aggregates and routes data across multiple MLS feeds, providing a single integration point for accessing…
+- [Realtyna Organic RESO API](https://apis.io/apis/realtyna/organic-reso-api/) — Organic RESO API provides standards-based access to real estate listing data using the RESO Web API specification, enabling developers to build applications…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Realtyna WPL API Plugin
-The WPL API Plugin is a RESTful HTTP/JSON interface for the Realtyna WPL WordPress platform. It supports user account registration and management, authentication, retrieving active listing types, loading property data, filter parameters (property type, bedrooms, bathrooms, price, neighborhood), managing favorites, saved searches, password reset via SMS, and listing details.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://realtyna.com/api](https://realtyna.com/api)
+- [Realtyna Domain Security](https://apis.io/security/realtyna/realtyna-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - WPL, Property Listings, WordPress
+Published plans, tiers and prices.
 
-#### Properties
+- [Realtyna Plans Pricing](https://apis.io/plans/realtyna/realtyna-plans-pricing/)
 
-- [Documentation](https://realtyna.com/API_Documentation_V2.pdf)
-- [Pricing](https://realtyna.com/api)
+#### Rate limits (1)
 
-### Realtyna MLS Router API
-MLS Router API is an enterprise solution that aggregates and routes data across multiple MLS feeds, providing a single integration point for accessing normalized MLS listing data through a RESO-compliant interface.
+Published request limits.
 
-**Human URL:** [https://realtyna.com/mls-router-api](https://realtyna.com/mls-router-api)
+- [Realtyna Rate Limits](https://apis.io/rate-limits/realtyna/realtyna-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - MLS, RESO, Enterprise
+What the API costs to run, by operation.
 
-#### Properties
+- [Realtyna Finops](https://apis.io/finops/realtyna/realtyna-finops/)
 
-- [Documentation](https://realtyna.com/mls-router-api)
+## Where to find this API
 
-### Realtyna Organic RESO API
-Organic RESO API provides standards-based access to real estate listing data using the RESO Web API specification, enabling developers to build applications consuming MLS data through a RESO-compliant interface.
-
-**Human URL:** [https://realtyna.com/organic-mls-integration/](https://realtyna.com/organic-mls-integration/)
-
-#### Tags:
-
- - MLS, RESO
-
-#### Properties
-
-- [Documentation](https://realtyna.com/organic-mls-integration/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://realtyna.com)
 - [Documentation](https://realtyna.com/api)
+- [Blog](https://realtyna.com/feed/)
+- [GitHub](https://github.com/realtyna)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 13.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/realtyna/](https://apis.io/providers/realtyna/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Realtyna: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/realtyna/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
